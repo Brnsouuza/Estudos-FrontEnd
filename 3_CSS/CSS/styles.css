@@ -6,3 +6,7 @@ body{
 h3 {
     color: green; font-size: 40px;
 }
+
+p {
+    color: blueviolet;
+}
