@@ -21,3 +21,11 @@ p {
     color: brown;
     padding: 5px;
 }
+
+/* ids */
+
+#exclusive-title {
+    background-color: cyan;
+    color: blue;
+    padding: 3px;
+}
