@@ -29,3 +29,60 @@ p {
     color: blue;
     padding: 3px;
 }
+
+/* Ordem das regras */
+
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 5px solid green;
+
+}
+
+/* Nome de cores */
+
+.color-name{
+    color: rgb(238, 0, 0)
+}
+
+/* HEX */
+
+.hex-color{
+
+    color: #55a398
+}
+
+.hex-color2{
+    color: #005a89
+}
+
+/* Aprofundando no HEX*/
+
+.aprofundando-no-hex{
+
+    color: #333;
+}
+
+.aprofundado-no-hex2{
+
+    color: #A5F;
+}
+
+/* RGB */
+
+.rgb-color{
+
+    color: rgb(255, 0, 0);
+}
+
+.rgb-color2{
+
+    color: rgb(10,40,200);
+
+}
