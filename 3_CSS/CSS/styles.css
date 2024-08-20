@@ -8,7 +8,7 @@ h3 {
 }
 
 p {
-    color: blueviolet;
+    /*color: blueviolet;*/
 }
 
 /* Algum Comentário */
@@ -85,4 +85,59 @@ h2 {
 
     color: rgb(10,40,200);
 
+}
+
+/* RGBa */
+
+.rgba{
+    color: rgba(200,150,250,0.5);
+}
+
+/* HSL */
+
+.hsl{
+    color: hsl(190,30%,60%);
+}
+
+.hsltwo{
+    color: hsl(290,40%,60%);
+}
+
+/* Cor de fundo backgroud */
+
+.cor-de-fundo{
+   background-color: #000;
+   color: blueviolet;
+}
+
+.cordefundo{
+    background-color: rgb(30,40,12);
+    color: white;
+}
+
+/* Backgroud opacity */
+
+.bg-opacity {
+    background-color: #A5F;
+    opacity: 0.2;
+}
+
+.bg-opacity2 {
+    background-color: #2b2c2c;
+    opacity: 0.8;
+}
+
+/* RGA - Opacidade */
+
+.rgba-opacity{
+    background-color: rgb(213, 250,3,0.2);
+    color:#000;
+}
+
+/* bg - imagen*/
+
+.bg-image{
+    background-image: url("..//CSS/Todo-fracasso-pode-ser-uma-ponte-para-o-sucesso-1080x675.jpg");
+    color: aliceblue;
+    padding: 11px;
 }
