@@ -137,7 +137,49 @@ h2 {
 /* bg - imagen*/
 
 .bg-image{
-    background-image: url("..//CSS/Todo-fracasso-pode-ser-uma-ponte-para-o-sucesso-1080x675.jpg");
+    background-image: url("..//CSS/img/Todo-fracasso-pode-ser-uma-ponte-para-o-sucesso-1080x675.jpg");
     color: aliceblue;
     padding: 11px;
+}
+
+/* 20 - Centralizando imagem de background */ 
+
+.not-centered.bg,
+.centered-bg{
+height: 400px;
+width: 400x;
+background-image: url(..//CSS/img/GoldenGateBridge-001.jpg);
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+/*21 - Largura e Altura*/
+
+/* Nesse caso eu usei tanto largura quanto altura, ou seja, ficará da forma que eu desejar*/
+.height-width{
+height: 200px;
+width: 150px;
+background-color: blue;
+}
+
+/* Nesse caso como eu não limitei a largura com o (width) o valor será de 100% da tela*/
+.height-width-2{
+    height: 300px;
+    background-color: #333;
+}
+
+/* 22 - Uso do Padding */
+
+/* Colocamos as duas para ficar de forma mais visivel a diferença entre elas, mas logo abaixo e feito a separada de uma com padding*/
+.without-padding,
+.padding {
+    background-color: rgb(77, 57, 97);
+    color: #e6e6e6;
+}
+
+.padding {
+    padding: 10px;
 }
