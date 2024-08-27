@@ -183,3 +183,15 @@ background-color: blue;
 .padding {
     padding: 10px;
 }
+
+/* 23 Lados individuas padding */
+
+.padding-individual{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top:41px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 41px;
+
+}
