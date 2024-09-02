@@ -1,0 +1,108 @@
+/* 1 E 2 EU ENTENDI QUE SERIAM JUNTAS */
+
+.box-model-largura-altura{
+    height: 200px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.box-model-largura-altura-1{
+    height: 300px;
+    background-color: black;
+}
+
+.box-model-padding{
+    background-color: rgb(236, 6, 6);
+    color: beige;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.box-model-padding-individual{
+    background-color: rgb(11, 229, 236);
+    color: rgb(252, 0, 0);
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.box-model-shorthand-padding{
+    background-color: rgb(64, 47, 122);
+    color: rgb(253, 253, 253);
+    padding: 20px 25px 40px 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box-model-padding-width{
+    background-color: green;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 100px;
+    width: 500px;
+}
+
+.box-model-bordas{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 30px;
+    border: 3px solid green;
+}
+
+.box-model-bordas-pontilhadas{
+    background-color: rgb(221, 180, 180);
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    border: 3px dotted green;
+}
+
+.box-model-bordas-individuais{
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+    border-right: 6px solid green;
+}
+
+.box-model-arredondamento{
+    background-color: rgb(36, 36, 37);
+    color: azure;
+    font-size: 30px;
+    border:3px solid blue;  
+    border-radius: 10px;
+}
+
+.box-model-margin{
+    background-color: black;
+    margin-top: 50px; /* Ou posso usar o magin-shorthand*/
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* 3 INSERIR UM H2 */
+
+.h2{
+    background-color: rgb(63, 25, 35);
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+}
+
+/* Outline */
+
+.outline{
+    background-color: black;
+    color: gold;
+    font-size: 35px;
+    border: 3px dotted blue;
+    outline: 5px solid green;
+}
+
+.boxmodel{
+    background-color: antiquewhite;
+    color: black;
+    font-size: 15px;
+    border: 3px solid green;
+}
