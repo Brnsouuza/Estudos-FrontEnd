@@ -294,3 +294,28 @@ border-radius:25px;
     width: 150px;
     height: 200px;
 }
+
+/* Alinhamento de texto */
+
+.text-aligned{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 1px solid green;
+}
+
+/* Text decoration */
+
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.remove-underline{
+    text-decoration: none;
+    color:#A5F;
+}
