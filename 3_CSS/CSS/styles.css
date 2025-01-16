@@ -352,3 +352,22 @@ border-radius:25px;
 .big{
     font-size: 78px
 }
+/* Display*/
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    display: inline-block;
+}
+.block{
+    background-color: #2b2c2c;
+    display: block;
+    margin: 10px;
+}
+
+/* Escondendo elemento*/
+
+.invisible{
+    display: none ;
+    
+}
