@@ -371,3 +371,62 @@ border-radius:25px;
     display: none ;
     
 }
+
+/* Statics */
+
+.static{
+    position: static;
+    background-color: #A5F;
+    color:aliceblue;
+    width: 100px;
+    height: 100px;
+}
+.relative{
+    position: relative;
+    background-color: rgb(207, 19, 19);
+    color:aliceblue;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
+
+/* Position Absolute  */
+
+.absolute{
+    position: absolute;
+    background-color: rgb(14, 46, 224);
+    color: black;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Relative with absolute */
+
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: solid blue;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-2,
+.absolute-1{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+    background-color: #A5F;
+}
