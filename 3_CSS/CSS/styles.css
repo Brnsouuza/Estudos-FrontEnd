@@ -430,3 +430,61 @@ border-radius:25px;
     right: 10px;
     background-color: #A5F;
 }
+/* fixed */
+
+.Fixado{
+    background-color: rgba(212, 25, 25, 0.959);
+    color:aliceblue;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: #55a398;
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+
+}
+
+/* Sticky */
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(20, 241, 38);
+    background-color: #060ae7;
+    position:sticky;
+    top: 50px;
+    right: 100px;
+}
+
+/* z-index */
+
+.absolut-3,
+.absolut-4,
+.absolut-5 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(39, 31, 66);
+    position: absolute;
+}
+
+.absolut-3{
+    top:0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolut-4{
+    top: 10px;
+    left: 10px;
+    background-color: #060ae7;
+    z-index: 2;
+}
+
+.absolut-5{
+    top: 40px;
+    left: 40px;
+    background-color: #A5F;
+    z-index: 1;
+}
