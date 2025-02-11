@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/Form/CSS/Styles.css">
+</head>
+<body>
+    <h2>Formalários HTML</h2>
+    <!-- 1 Primeiro formulário -->
+    <!-- 2 Primeiro atríbuto -->
+    <form action="resgister.php" method="GET">
+
+    <!-- 3 Atributo name -->
+        <div>
+        <label>Name:</label>
+        <input type="text" />
+        </div>
+    <!--4 atributo label-->
+        <div>
+        <label for="age">Age:</label>
+        <input type="text" name="age"/>
+        </div>
+    <!-- 6 - Select -->
+     <div>
+        <Label for="Job">Selecionar a sua profissão:</Label> 
+        <select name="Job">
+            <!-- O option ele colocar informações dentro do Select e o select gerar a caixinha.-->
+            <option value="Programador">Programador</option> 
+            <option value="Desenvolvedor Front-End">Desenvolvedor Front-End</option>
+            <option value="Engenier software">Engenier software</option>
+            <option value="Teste">Tester/QA</option>
+        </select>
+     </div>
+     <!-- 7 - Atributo select -->
+      <div>
+        <label for="contract">Você leu os termos do contrato></label>
+        <select name="contract">
+            <option value="sim">Sim</option>
+            <!-- O selected é para manter o Não visível no front, mas pode fazer a escolha, pois tem um sim como Opção e se remover o "selected" o atributo ficará "sim" -->
+            <option value="Não" selected>Não</option>
+        </select>
+      </div>
+      <!-- 8 - Multiplos opções-->
+       <div>
+        <label for="Multiplos">Seleciona suas opções:</label>
+        <select name="Multiplos" multiple>
+            <!-- "multiple" usado para fazer com que o front permita as multiplas seleções como selecionar mais de um item. -->
+            <option value="Alface">Alface</option>
+            <option value="Tomate">Tomate</option>
+            <option value="Pepino">Pepino</option>
+            <option value="Abacate">Abacate</option>
+        </select>
+       </div>
+
+       <!-- 9 - Textearea -->
+        <div>
+            <!-- textearea é usado para criar blocos de comentários maiores como de melhoria para um produto.  -->
+            <label for="comment">Comentário:</label>
+            <textarea name="comment"></textarea>
+        </div>
+        <!-- 10 - Fildset e legend -->
+         <div>
+            <fieldset>
+                <legend>Preencha as suas informações:</legend>
+                <label for="firstname">Nome:</label>
+                <input type="text" name="firstname"></imput>
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname"></imput>
+            </fieldset>
+         </div>
+         <!-- 11 - Datalist -->
+          <div>
+            <!-- Essa função Datalist gera dentroe de um input uma lista de items o atributo "list" deve ir dentro do input com o ID da datalist criada. -->
+            <label for="flavor">Escolha o Sabor:</label>
+            <input type="text" list="flavors" name="flavor">
+
+            <datalist id="flavors">
+                <option value="Cereja"></option>
+                <option value="Morango"></option>
+                <option value="Manga"></opt/ion>
+                <option value="Uva"></option>
+                <option value="banana"></option>
+                <option value="Mamão"></option>
+                <option value="Aceróla"></option>
+            </datalist>
+          </div>
+          <!-- 12 Input Senha -->
+           <div>
+            <!-- O type= Password é para ddeixar a senha com aquelas bolinhas, ou seja, ocultando ela do front.  -->
+            <label for="password">Digite a sua senha:</label>
+            <input type="password" name="password">
+           </div>
+
+            <!-- 14 - Input radio buttom -->
+             <div>
+                <label for="car-model">Escolha o modelo do seu carro:</label>
+                <div class="radio">
+                    <input type="radio" value="BMW" name="car_model">
+                    <label for="BMW">BMW</label>
+                </div>
+                
+                <div class="radio">
+                    <input type="radio" value="ONIX" name="car_model">
+                    <label for="ONIX">ONIX</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" value="PORSHE" name="car_model">
+                    <label for="PORSHE">PORSHE</label>
+                </div>
+             </div>
+             <div class="radio">
+                <input type="radio" value="FERRARI" name="car_model">
+                <label for="FERRARI">FERRARI</label>
+                </div>
+             </div>
+
+             <!-- 15 - Checkbox input -->
+              <div>
+                <label for="optionals">Opicionais do carro:</label>
+                <div class="radio">
+                    <input type="checkbox" name="optionals[]" value="big_tires">
+                    <label for="big_tires">Pneus Grandes</label>
+                    <div>
+                    <input type="checkbox" name="optionals[]" value="glass_front">
+                    <label for="glass_front">vidro parabrisa</label>
+                </div>
+                </div>
+              </div>
+           <!-- 16 - input date -->
+            <div>
+                <label for="birthday">Data de nascimento</label>
+                <input type="date" name="birthday">
+            </div>
+
+           <!-- 13 - Restart Form -->
+            <input type="reset" value="Clean">             
+    <!-- 5 - Envio de form -- Esse vai gerar aquele botão que vemos nos sites como enviar, publisher ou submit-->
+    <input type="Submit" value="Enviar"/>
+    </form>
+</body>
+</html>

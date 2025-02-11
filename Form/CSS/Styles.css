@@ -1,0 +1,23 @@
+h2 {
+    color: blueviolet;
+}
+
+body {
+    padding-bottom: 500px;
+}
+
+div {
+    margin-bottom: 10px;
+    border-radius: 1px;
+}
+
+div input,
+div label {
+    display: block; 
+}
+
+.radio label,
+.radio input,
+.radio span {
+    display: inline-block;
+}
